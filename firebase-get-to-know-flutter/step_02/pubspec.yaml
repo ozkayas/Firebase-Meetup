@@ -9,7 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_fonts: ^2.0.0
+  google_fonts: ^2.1.0
+  cloud_firestore: any
+  firebase_auth: any
+  provider: any
+
 
 dev_dependencies:
   flutter_test:

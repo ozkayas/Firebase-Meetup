@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 import 'src/widgets.dart';
 
@@ -51,7 +52,7 @@ class HomePage extends StatelessWidget {
           ),
           const Header("What we'll be doing"),
           const Paragraph(
-            'Join us for a day full of Firebase Workshops and Pizza!',
+            'Join us for a day full of Firebase Workshops and Lahmacun!',
           ),
         ],
       ),
